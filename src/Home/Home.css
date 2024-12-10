@@ -1,0 +1,33 @@
+.carousal-img {
+  /* height:auto; */
+  width: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #ff4500;
+}
+
+.class .btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{ 
+    border: 1px solid;
+   cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid black;
+}
+
+.carousel-control-next-icon {
+  
+  background-image: url('https://cdn-icons-png.flaticon.com/512/6399/6399624.png');
+}
+/* .carousel-control-prev-icon{
+    background-image: url('https://banner2.cleanpng.com/20180329/xkq/avij6hsie.web');
+} */
+
+
+

@@ -1,0 +1,22 @@
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(14, 9, 9);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+}
+.div-flex-details{
+  display: flex;
+  gap: 4%;
+}
+.div-flex-name{
+    color: rgb(240, 239, 235);
+    font-size: smaller;
+    font-weight: 400;
+}
+.div-flex-name:hover{
+    color: red;
+}

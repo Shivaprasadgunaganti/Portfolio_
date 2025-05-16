@@ -1,5 +1,5 @@
 import { ProgressBar } from "react-bootstrap";
-import file from "../files/Shiva-Prasad-Frontend-developer.pdf";
+import file from "../files/Shiva_Prasad.pdf";
 import "./Skills.css";
 const Skills = () => {
   const buttonHandler = () => {
@@ -19,16 +19,16 @@ const Skills = () => {
         <div className="skills-div1">
           <p>Html & Css</p>
 
-          <ProgressBar now={80} animated={35} />
+          <ProgressBar now={90} animated={35} />
           <br />
           <p>Java Script</p>
-          <ProgressBar now={65} animated={50} variant="success" />
+          <ProgressBar now={85} animated={50} variant="success" />
         </div>
         <div className="skills-div2">
           <p>React</p>
-          <ProgressBar now={80} variant="info" animated={100} />
+          <ProgressBar now={90} variant="info" animated={100} />
           <br />
-          <p>kladsslk</p>
+          <p>Bootstrap</p>
           <ProgressBar now={80} variant="warning" animated={20} />
         </div>
       </div>

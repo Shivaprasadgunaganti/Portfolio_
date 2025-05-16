@@ -11,12 +11,17 @@
 .div-flex-details{
   display: flex;
   gap: 4%;
+  color: #f1c40fb9;
 }
-.div-flex-name{
-    color: rgb(240, 239, 235);
-    font-size: smaller;
+.div-flex-name1{
+    /* color: rgb(240, 239, 235); */
+
     font-weight: 400;
+    color: 	#16A085;
+}
+.div-flex-name1:hover{
+    color: 	#1ABC9C;
 }
 .div-flex-name:hover{
-    color: red;
+    color: 	#FFA500;
 }
